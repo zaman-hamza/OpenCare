@@ -1,0 +1,37 @@
+.answer-item {
+    margin-bottom: 1rem;
+    background-color: rgb(34, 34, 34);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.answer-item__answer {
+    margin-top: 1.5rem;
+}
+
+.answer-item__votes {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer-item__votes button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background: transparent;
+    border: 0;
+    margin-right: 1rem;
+    padding: 0.25rem;
+}
+
+.answer-item__votes button img {
+    width: 1.25rem;
+}
+
+.answer-item__votes button p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.35rem;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,74 @@
+.thread__not-found {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.thread__not-found h1 {
+    margin-bottom: 1rem;
+    letter-spacing: 10px;
+}
+
+.thread__not-found h4 {
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+
+.thread__not-found h3 {
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.thread__not-found-img {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    margin-top: 10rem;
+    opacity: 0.5;
+}
+
+.thread-container {
+    margin-top: 10rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.thread-container__description {
+    margin-top: 1rem;
+}
+
+.thread-container__creator {
+    margin-top: 2rem;
+}
+
+.thread__add-answer-button {
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    flex-direction: row;
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(33, 33, 33);
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.thread__add-answer-button:hover {
+    background-color: #f34343;
+}
+
+.thread__add-answer-button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.75rem;
+}
+
+.thread__add-answer-button p {
+    margin-left: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 17.5px;
+    color: white;
+}

@@ -1,0 +1,16 @@
+.user-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-container img {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 100%;
+}
+
+.user-container p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.75rem;
+}

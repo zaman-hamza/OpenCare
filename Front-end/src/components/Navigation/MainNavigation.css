@@ -1,0 +1,58 @@
+.main-navigation__menu-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.main-navigation__menu-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.main-navigation__container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.main-navigation__logo {
+    width: 2.25rem;
+    height: 2rem;
+    margin-right: 1.25rem;
+}
+
+.main-navigation__title {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    background: transparent;
+}
+
+.main-navigation__title a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-navigation__header-nav {
+    display: none;
+}
+
+.main-navigation__drawer-nav {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .main-navigation__menu-btn {
+        display: none;
+    }
+
+    .main-navigation__header-nav {
+        display: block;
+    }
+}

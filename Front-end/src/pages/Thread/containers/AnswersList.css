@@ -1,0 +1,18 @@
+.answers-list {
+    list-style: none;
+    margin: 1rem auto;
+    margin-top: 4rem;
+    padding: 0;
+    width: 90%;
+    max-width: 45rem;
+}
+
+.answers-list__not-found {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.answers-list__not-found h2 {
+    margin-bottom: 0.5rem;
+}

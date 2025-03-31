@@ -1,0 +1,14 @@
+.thread-item {
+    margin-bottom: 2rem;
+    background-color: rgb(27, 27, 27);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.thread-item h3 {
+    margin-top: 0.5rem;
+}
+
+.thread-item a {
+    margin-top: 1rem;
+}
